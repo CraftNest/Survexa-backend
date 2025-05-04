@@ -1,85 +1,98 @@
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+</p>
 
-# 🧠 Survexa — Decentralized Survey Platform on StarkNet  
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-**Survexa** is a decentralized survey platform built on **StarkNet** that rewards users for sharing opinions while preserving privacy with **zero-knowledge proofs (ZKPs)**. Survey creators can launch custom surveys by staking tokens, while users earn rewards in a **fair, spam-resistant**, and **DAO-governed** environment.
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
----
+## Description
 
-## 🚀 Key Features
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-✔️ **ZK Proofs** to verify eligibility without revealing personal data  
-✔️ **Incentivized surveys** with STRK tokens or stablecoins  
-✔️ **Custom survey creation** with staking, flexible rewards & questions  
-✔️ **Smart contract automation** for secure reward distribution  
-✔️ **IPFS + Chainlink** for encrypted storage & verification  
-✔️ **User dashboard** to manage earnings, surveys, and settings  
-✔️ **DAO governance** for quality control and fairness  
+## Project setup
 
----
-
-## 🛠️ Technologies Used  
-
-- **Frontend**: Next.js + TailwindCSS  
-- **Blockchain**: StarkNet (Cairo)  
-- **ZK Proofs**: Zero-Knowledge Protocols  
-
-
-## 🌐 Connect & Use  
-
-To participate, install a StarkNet-compatible wallet like **ArgentX** or **Braavos**. All interactions — from survey responses to reward claims — are powered by Cairo smart contracts on StarkNet.  
-
----
-
-## 🤝 How to Contribute  
-
-We welcome your contributions to Survexa! Follow these steps to get started:
-
-1️⃣ **Fork the repository**  
-```sh
-git fork https://github.com/CraftNest/Survexa-backend.git
+```bash
+$ npm install
 ```
 
-2️⃣ **Clone your fork**
-```sh
-git clone https://github.com/YOUR_USERNAME/Survexa-backend.git
-cd Survexa
+## Compile and run the project
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
 ```
 
-3️⃣ **Create a new branch**
-```sh
-git checkout -b feat-your-feature
+## Run tests
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
 ```
 
-4️⃣ **Make your changes and commit**
-```sh
-git commit -m "feat: add feature to survey creation form"
+## Deployment
+
+When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+
+If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+
+```bash
+$ npm install -g @nestjs/mau
+$ mau deploy
 ```
 
-5️⃣ **Push changes to your fork**
-```sh
-git push origin feat-your-feature
-```
+With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
 
-6️⃣ **Open a Pull Request** 🚀  
+## Resources
 
----
+Check out a few resources that may come in handy when working with NestJS:
 
-### 🔀 Branch Naming
+- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
+- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
+- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
+- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
+- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
+- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
+- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
+- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
 
-- `feat/feature-name` — New features  
-- `fix/bug-description` — Bug fixes  
-- `chore/task-name` — Maintenance or refactoring  
-- `docs/update-description` — Documentation updates  
+## Support
 
-### 📝 Commit Message Guidelines
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-- `feat: implement zk-proof integration`  
-- `fix: handle survey creation error`  
-- `chore: clean up unused components`  
-- `docs: update project usage instructions`  
+## Stay in touch
 
+- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
 
-## 🌍 Join the Movement  
-Survexa empowers data-sharing with **privacy**, **fair rewards**, and **community governance**. Whether you're a developer, researcher, or data enthusiast — there's a place for you here.  
+## License
 
-🎯 **Fork the repo, build, and help shape the future of decentralized surveys.**
+Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
